@@ -152,7 +152,7 @@ function showLinks(links) {
   }
   document.querySelector("#linkList").innerHTML = writingLinks;
 }
-if (window.location =="http://127.0.0.1/MarkoStojanovicTheGreatestGift/index.html") {
+if (window.location =="https://markostojanovic4419thegreatestgift.github.io/index.html") {
   getViaAjax("purpose", showPurposes);
   getViaAjax("contactInformation", showContactInformationList);
   function showPurposes(purposes) {
@@ -293,7 +293,7 @@ if (window.location =="http://127.0.0.1/MarkoStojanovicTheGreatestGift/index.htm
     $(this).find("ul").slideUp();
   });
 }
-if ((window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/author.html")||(window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/index.html")) {
+if ((window.location == "https://markostojanovic4419thegreatestgift.github.io/author.html")||(window.location == "https://markostojanovic4419thegreatestgift.github.io/index.html")) {
   $(".descriptiveImage").mouseover(function () {
     $(this).addClass("descriptiveImageBoxShadow");
   });
@@ -301,17 +301,17 @@ if ((window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/author.
     $(this).removeClass("descriptiveImageBoxShadow");
   });
 }
-if ((window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/comedyNovels.html")||(window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/dramaNovels.html")) {
+if ((window.location == "https://markostojanovic4419thegreatestgift.github.io/comedyNovels.html")||(window.location == "https://markostojanovic4419thegreatestgift.github.io/dramaNovels.html")) {
 
 
 
   function filterChange(){
-if (window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/comedyNovels.html"){
+if (window.location == "https://markostojanovic4419thegreatestgift.github.io/comedyNovels.html"){
  
   getViaAjax("comedyNovels", showNovels);
 
 }
-if (window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/dramaNovels.html"){
+if (window.location == "https://markostojanovic4419thegreatestgift.github.io/dramaNovels.html"){
 
   getViaAjax("dramaNovels", showNovels);
   
@@ -622,19 +622,19 @@ if(selectedAvailability.length !=0){
 }
 
 
-if (window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/comedyNovels.html"){
+if (window.location == "https://markostojanovic4419thegreatestgift.github.io/comedyNovels.html"){
   getViaAjax("comedySubgenres", showSubgenres);
   getViaAjax("comedyAuthors", showAuthors);
   getViaAjax("comedyNovels", showNovels);
   getViaAjax("comedyNovels", getNovels);
 }
-if (window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/dramaNovels.html"){
+if (window.location == "https://markostojanovic4419thegreatestgift.github.io/dramaNovels.html"){
   getViaAjax("dramaSubgenres", showSubgenres);
   getViaAjax("dramaAuthors", showAuthors);
   getViaAjax("dramaNovels", showNovels);
   getViaAjax("dramaNovels", getNovels);
 }
-if (window.location == "http://127.0.0.1/MarkoStojanovicTheGreatestGift/cart.html"){
+if (window.location == "https://markostojanovic4419thegreatestgift.github.io/cart.html"){
   getViaAjax("comedyNovels",getComedyNovels);
   getViaAjax("dramaNovels",getDramaNovels);
   var globalNovels;

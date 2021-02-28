@@ -279,9 +279,7 @@ if (window.location =="https://markostojanovic4419thegreatestgift.github.io/inde
       }
       writingContactInformationList += "</ul></li>";
     }
-    document.querySelector(
-      "#contactInformationList"
-    ).innerHTML = writingContactInformationList;
+    document.querySelector("#contactInformationList").innerHTML = writingContactInformationList;
   }
   $("#contactInformationList").on("mouseenter", "li", function () {
     $(this).find("ul").slideDown();

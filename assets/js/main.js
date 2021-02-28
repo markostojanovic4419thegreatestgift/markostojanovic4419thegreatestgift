@@ -652,7 +652,7 @@ readingNovelsFromCart(globalNovels);
     emptyCart();
     var cartBlock = document.getElementById("cartBlock");
     if(!localStorage.getItem("novelsToBuy")){
-      cartBlock.innerHTML=`<div class="width100 displayFlex justifyContentCenter blockPaddingTop"><h4 class="redColor">There are no products in your cart.</h4></div>`;
+      cartBlock.innerHTML=`<div class="width100 displayFlex justifyContentCenter blockPaddingTop"><h4 class="redColor">Your cart is empty!</h4></div>`;
     }
     else {
       var novelsInCartLocalStorage=JSON.parse(localStorage.getItem("novelsToBuy"));

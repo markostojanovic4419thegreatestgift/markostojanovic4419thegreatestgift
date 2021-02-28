@@ -131,10 +131,7 @@ slideShow();
 $("#menu").on("mouseenter", ".includesSubmenu", function () {
   $("#submenu").parent().parent().removeClass("displayNone");
 });
-$("#submenu")
-  .parent()
-  .parent()
-  .mouseleave(function () {
+$("#submenu").parent().parent().mouseleave(function () {
     $("#submenu").parent().parent().addClass("displayNone");
   });
 $("#hamburger").click(function () {
